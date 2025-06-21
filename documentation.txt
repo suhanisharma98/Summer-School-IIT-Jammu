@@ -1,0 +1,34 @@
+DOCUMENTATION
+
+1. HTML Elements Used:
+
+- <header>: Used to wrap the page header and navigation links.
+- <nav>: Holds the navigation menu so users can move between pages.
+- <main>: Main content area of the page.
+- <section>: Groups related content like Skills, Education, etc.
+- <h1> to <h6>: Used to create a proper content hierarchy.
+- <ul>, <ol>: Used to list items (unordered and ordered).
+- <img>: Used to display my picture with proper alt text.
+- <table>: Used to present my project experience in tabular format.
+- <form>: Used in contact.html to collect user details.
+- <input>, <textarea>: Used for form fields.
+- <fieldset>, <legend>: Used to group radio buttons and checkboxes.
+
+2. Why I choose specific input types:
+
+- text: For basic input like name.
+- email: Ensures the user enters a valid email format.
+- tel: Allows numeric phone number input.
+- textarea: For longer messages or feedback.
+- checkbox: To let users select multiple contact methods.
+- radio: For selecting only one inquiry type.
+- date, range, and select: For enhanced interaction (Part 2).
+
+3. Navigation Structure:
+
+Each page has a <nav> section with links like:
+- Home (portfolio.html)
+- About Me (about.html)
+- Contact (contact.html)
+
+These internal links help users navigate between pages easily. External links (like MDN or W3Schools) open in new tabs.
