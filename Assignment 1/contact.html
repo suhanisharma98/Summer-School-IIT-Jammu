@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Me</h1>
+      <nav>
+        <a href="portfolio.html">Back to Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Get in Touch</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="30"
+            required
+          ></textarea
+          ><br /><br />
+
+          <fieldset>
+            <legend>Preferred Contact Method:</legend>
+            <input
+              type="checkbox"
+              id="emailPref"
+              name="contact_method"
+              value="Email"
+            />
+            <label for="emailPref">Email</label><br />
+            <input
+              type="checkbox"
+              id="phonePref"
+              name="contact_method"
+              value="Phone"
+            />
+            <label for="phonePref">Phone</label><br />
+            <input
+              type="checkbox"
+              id="textPref"
+              name="contact_method"
+              value="Text"
+            />
+            <label for="textPref">Text</label>
+          </fieldset>
+          <br />
+
+          <fieldset>
+            <legend>Inquiry Type:</legend>
+            <input
+              type="radio"
+              id="general"
+              name="inquiry_type"
+              value="General"
+              required
+            />
+            <label for="general">General</label><br />
+            <input
+              type="radio"
+              id="business"
+              name="inquiry_type"
+              value="Business"
+            />
+            <label for="business">Business</label><br />
+            <input
+              type="radio"
+              id="support"
+              name="inquiry_type"
+              value="Support"
+            />
+            <label for="support">Support</label>
+          </fieldset>
+          <br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Suhani Sharma</p>
+    </footer>
+  </body>
+</html>
